@@ -131,7 +131,18 @@
 }
 .sec2content h2 {
   font-size: 2.2vw;
-
+}
+#railsicon {
+  margin-left: 1vw;
+  width: 3vw;
+}
+.rails {
+  display: inline-block;
+  margin-bottom: 0;
+  color: rgb(199, 0, 0);
+}
+.docker {
+  color: rgb(103, 173, 189);
 }
 .sec2content p {
   font-size: 1.3vw;
@@ -157,7 +168,35 @@
 
 #goriselfy {
   position: absolute;
-  opacity: 0.3;
+  opacity: 0.1;
   width: 50vw;
   bottom: 0;
+}
+
+
+
+
+.balloon4 {
+    z-index: 3;
+    position: absolute;
+    background: #fff0c6;
+    border-radius:50%;
+    padding: 35px;
+    top: 22vh;
+    left: 9.5vw;
+    opacity: 0.8;
+}
+
+
+.balloon4 p {
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    font-size: 1.3vw;
+    font-family: "Sawarabi Gothic";
+    text-align: center;
+}
+
+.fab fa-docker{
+  margin-left: 10vw;
 }
