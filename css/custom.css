@@ -1,5 +1,5 @@
 .sec1 {
-  background: linear-gradient(#73f237, rgb(168, 230, 91));
+  background: linear-gradient(rgb(0, 255, 94), rgb(8, 134, 81));
   position: relative;
   font-family: "Nico Moji";
   color: rgb(58, 85, 60);
@@ -87,13 +87,24 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
   text-align: center;
   text-shadow: 2px 2px 2px rgb(71, 38, 38);
 }
+.sec1content h3{
+  text-shadow: none;
+  font-size: 2vw;
+  margin-top: 0;
+  padding: 0;
+}
+.sec1content a {
+  text-decoration: none;
+  color: rgb(76, 63, 236);
+}
 .sec1content h1 {
   font-size: 6vw;
-  margin-bottom: 2vh;
+  margin-bottom: 1.5vh;
+  margin-top: 1.5vh;
 }
 .sec1content p {
   font-size: 3vw;
@@ -157,24 +168,21 @@
   padding: 0;
   border-radius: 50%;
 }
-
 #goreal {
   position: absolute;
   bottom: 0;
   z-index: 1;
   width: 35vw;
   height: 50vh;
+  opacity: 0.94;
 }
-
 #goriselfy {
   position: absolute;
-  opacity: 0.1;
+  opacity: 0.5;
   width: 50vw;
   bottom: 0;
+  z-index: -1;
 }
-
-
-
 
 .balloon4 {
     z-index: 3;
@@ -186,8 +194,6 @@
     left: 9.5vw;
     opacity: 0.8;
 }
-
-
 .balloon4 p {
     letter-spacing: 2px;
     margin: 0;
@@ -196,7 +202,6 @@
     font-family: "Sawarabi Gothic";
     text-align: center;
 }
-
 .fab fa-docker{
   margin-left: 10vw;
 }
