@@ -4,20 +4,29 @@
     <meta charset="utf-8">
     <title>きよたの自己紹介</title>
   </head>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" type="text/css" href="css/jquery.multiscroll.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/sawarabigothic.css" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="css/custom.css" >
+  <link rel="stylesheet" type="text/css" href="css/phone.css" >
   <script type="text/javascript" src=js/jquery-3.3.1.js></script>
   <script type="text/javascript" src="js/jquery.easing.js"></script>
   <script type="text/javascript" src="js/jquery.multiscroll.js"></script>
   <script type="text/javascript">
       $(document).ready(function() {
       $('#multiscroll').multiscroll({
-
+          anchors: ['first','second','third'],
+          menu: '#myMenu'
         });
       });
   </script>
   <body>
+    <ul id="myMenu">
+      <li data-menuanchor="first" class="active"><a href="#first">First</a></li>
+      <li data-menuanchor="second"><a href="#second">Second</a></li>
+      <li data-menuanchor="third"><a href="#third">Third</a></li>
+    </ul>
     <div id="multiscroll">
       <div class="ms-left">
 
@@ -42,10 +51,15 @@
           </div>
         </div>
 
-        <div class="ms-section sec2">Section 2 left
+        <div class="ms-section sec2">
+          <div class="sec2back">
+            <img id="jungle" src="img/jungle.jpg" alt="">
+          </div>
+          <img id="goreal" src="img/realgori.png" alt="">
         </div>
 
-        <div class="ms-section sec3">Section 3 left
+        <div class="ms-section sec3">
+          <img id="goriselfy" src="img/goripic.jpg" alt="">
         </div>
       </div>
     </div>
@@ -53,14 +67,34 @@
 
     <div class="ms-right">
         <div class="ms-section sec1">
+          <div class="sec1right">
+            <h1>じこしょうかい</h1>
+            <ul>
+              <li>年齢: ２３</li>
+              <li>性別: ♂</li>
+              <li>仕事: SES</li>
+              <li>住処: かながわ</li>
+              <li>夢: せかいへいわ</li>
+            </ul>
+          </div>
         </div>
 
         <div class="ms-section sec2">
-          Section 2 right
+          <div class="sec2content">
+            <h1>Webアプリケーションの開発を勉強中...</h1><br />
+            <h2>Ruby on Rails</h2>
+            <p>フレームワークを使ってみたく勉強</p>
+            <p>一通り学習は終えたので今は実際に開発を行いながら勉強ちゅう</p>
+            <br />
+            <h2>Docker</h2>
+            <p>最近話題の鯨くん</p>
+            <p>windows ⇔ mac での開発環境のずれなどで苦難を経験し学習を開始。</p>
+            <p>Dockerで色々作るの最高楽しい鯨最高ｲﾔｯﾎｫｵｵｵｵｳｳｳﾎ</p>
+          </div>
         </div>
 
         <div class="ms-section sec3">
-          Section 3 right
+
         </div>
     </div>
 </div>
