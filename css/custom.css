@@ -1,0 +1,54 @@
+.sec1 {
+  background: linear-gradient(#73f237, #229127);
+  position: relative;
+  font-family: "Nico Moji";
+}
+
+.sec2 {
+  background-color: rgb(45, 57, 44);
+  position: relative;
+}
+
+.sec3 {
+  position: relative;
+}
+
+.sec1left {
+  /* margin-left: 12.5vw; */
+  position: absolute;
+  top: 30vh;
+  left: 10vw;
+}
+.sec1left h1 {
+  text-align: center;
+  font-size: 2.4vw;
+}
+.sec1left ul {
+  font-size: 1.5vw;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.sec1content {
+  font-family: "Nico Moji";
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  text-align: center;
+}
+.sec1content h1 {
+  font-size: 5vw;
+  margin-bottom: 2vh;
+}
+.sec1content p {
+  font-size: 3vw;
+}
+#gorimain {
+  width: 25%;
+  background-color: white;
+  padding: 0;
+  border-radius: 50%;
+}
