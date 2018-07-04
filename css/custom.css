@@ -63,7 +63,9 @@
   list-style-type: none;
   padding-left: 0;
 }
-
+.sec1left li{
+  margin: 1.2vh 0;
+}
 .sec1right {
   /* margin-left: 12.5vw; */
   position: absolute;
@@ -79,7 +81,9 @@
   list-style-type: none;
   padding-left: 0;
 }
-
+.sec1right li{
+  margin: 1.2vh 0;
+}
 .sec1content {
   font-family: "Nico Moji";
   width: 100vw;
@@ -134,7 +138,7 @@
   color: rgb(255, 255, 255);
   text-align: center;
   font-family: "Sawarabi Gothic";
-  text-shadow: 9px 9px 1.2px rgb(0, 0, 0);
+  text-shadow: 7px 7px 1.5px rgb(33, 33, 33);
 }
 .sec2content h1 {
   font-size: 2.4vw;
@@ -156,11 +160,37 @@
   color: rgb(103, 173, 189);
 }
 .sec2content p {
-  font-size: 1.3vw;
+  font-size: 1.4vw;
 
 }
 
 
+.profile_link {
+  position: absolute;
+  left: 10vw;
+  top: 40vh;
+}
+.profile_link ul {
+  list-style-type: none;
+}
+.profile_link li {
+  font-family: 'Shrikhand', cursive;
+  text-align: right;
+  font-size: 2vw;
+  margin-bottom: 1.5vh;
+}
+.profile_link a {
+  text-decoration: none;
+}
+
+
+
+footer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}
 
 #gorimain {
   width: 25%;
@@ -172,8 +202,8 @@
   position: absolute;
   bottom: 0;
   z-index: 1;
-  width: 35vw;
-  height: 50vh;
+  width: 25vw;
+  height: 40vh;
   opacity: 0.94;
 }
 #goriselfy {
@@ -190,7 +220,7 @@
     background: #fff0c6;
     border-radius:50%;
     padding: 35px;
-    top: 22vh;
+    top: 24vh;
     left: 9.5vw;
     opacity: 0.8;
 }
