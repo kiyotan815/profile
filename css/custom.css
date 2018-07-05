@@ -164,14 +164,42 @@
 
 }
 
+.sec3content {
+  text-align: center;
+  position: absolute;
+  top: 5vh;
+  left: 0vw;
+  font-family: "Sawarabi Gothic";
+
+}
+.sec3content p {
+  font-size: 1.4vw;
+}
+.sec3content span {
+  font-size: 1.7vw;
+  font-weight: bold;
+}
+
 
 .profile_link {
   position: absolute;
   left: 10vw;
-  top: 40vh;
+  top: 20vh;
+}
+.profile_link p{
+  font-family: "Sawarabi Gothic";
+  font-size: 1.5vw;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  letter-spacing: 0.2vw;
 }
 .profile_link ul {
   list-style-type: none;
+  margin-top: 4vh;
+  border: 3px solid rgb(71, 71, 71);
+  border-radius: 10%;
+  padding: 1.4vh 4vh;
 }
 .profile_link li {
   font-family: 'Shrikhand', cursive;
@@ -189,7 +217,8 @@ footer{
   position: absolute;
   left: 0;
   bottom: 0;
-  margin: 10px;
+  margin: 1vh;
+  font-size: 1.1vw;
 }
 
 #gorimain {
