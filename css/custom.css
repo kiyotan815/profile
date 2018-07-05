@@ -172,6 +172,9 @@
   font-family: "Sawarabi Gothic";
 
 }
+.sec3content h1 {
+  font-size: 2.2vw;
+}
 .sec3content p {
   font-size: 1.4vw;
 }
