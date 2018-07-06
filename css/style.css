@@ -68,7 +68,6 @@ a {
 }
 .subcontent {
   width: calc(50% - 10px);
-  margin: 5px;
   font-family: "Nico Moji";
   text-align: center;
   padding-bottom: 30px;
