@@ -26,3 +26,12 @@ a {
   margin: 0 auto;
   opacity: 0.4;
 }
+
+
+.main{
+  flex-wrap: wrap;
+}
+.maincontent{
+  width: calc(50% - 10px);
+  margin: 5px;
+}
