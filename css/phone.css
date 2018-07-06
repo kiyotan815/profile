@@ -129,7 +129,6 @@
     top: 0;
     left: 0;
     z-index: 1;
-    text-align: center;
   }
   #jungle {
     opacity: 0.35;
@@ -140,25 +139,26 @@
     height: 100%;
     z-index: 2;
     position: absolute;
-    top: 80px;
-    left: -90%;
+    top: 0;
+    left: -50vw;
+    width: 100vw;
     color: rgb(255, 255, 255);
-    width: 80;
     text-align: center;
     font-family: "Sawarabi Gothic";
     text-shadow: 7px 7px 1.5px rgb(33, 33, 33);
   }
   .sec2content h1 {
-    font-size: 15px;
+    margin:100px 10px 10px 10px;
+    font-size: 18px;
 
   }
   .sec2content h2 {
-    font-size: 5vw;
+    font-size: 23px;
     margin-top: 0;
   }
   #railsicon {
-    margin-left: 1vw;
-    width: 5vw;
+    margin-left: 10px;
+    width: 30px;
   }
   .rails {
     display: inline-block;
@@ -169,7 +169,8 @@
     color: rgb(103, 173, 189);
   }
   .sec2content p {
-    font-size: 3vw;
+    margin: 10px 15px;
+    font-size: 13px;
 
   }
   .balloon4 {
@@ -177,17 +178,19 @@
       position: absolute;
       background: #fff0c6;
       border-radius:50%;
-      top: 75vh;
-      left: 45vw;
       opacity: 0.8;
-      width: 33vw;
+      width: 70%;
       padding: 5vh;
+      bottom: 60px;
+      left: 90%;
+      top: auto;
+
   }
   .balloon4 p {
       letter-spacing: 0vw;;
       margin: 0;
       padding: 0;
-      font-size: 0.9vw;
+      font-size: 10px;
       font-family: "Sawarabi Gothic";
       text-align: center;
   }
