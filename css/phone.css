@@ -21,21 +21,21 @@
     left: 0;
     width: 100vw;
     padding: 0;
-    margin-top: 6.4vh;
-    margin-left: 4vw;
+    margin-top: 40px;
+    margin-left: 20px;
     list-style-type: none;
   }
   #myMenu li {
       border-right: 1px solid #4d4d4d;
       background-color: rgb(27, 228, 192);
       opacity: 0.8;
-      margin-left: 1vw;
-      width: 8vw;
+      margin-left: 7px;
+      width: 30px;
   }
   #myMenu li a {
       display: block;
       padding: 10px 15px;
-      font-size: 1.4vw;
+      font-size: 10px;
       text-align: center;
       text-decoration: none;
       color: #333;
@@ -52,50 +52,49 @@
     /* margin-left: 12.5vw; */
     z-index: 3;
     position: absolute;
-    top: 38vh;
-    left: 15vw;
-    width: 50vw;
+    top: 320px;
+    left: 70px;
   }
   .sec1left h1 {
     text-align: left;
-    font-size: 4vw;
+    font-size: 20px;
   }
   .sec1left ul {
-    font-size: 2.4vw;
+    font-size: 14px;
     list-style-type: none;
     padding-left: 0;
     text-align: left;
   }
   .sec1left li{
-    padding-left: 5vw;
-    margin: 1.2vh 0;
+    padding-left: 5px;
+    margin: 5px 0;
   }
   .sec1right {
     /* margin-left: 12.5vw; */
     position: absolute;
-    top: 38vh;
-    right: -5vw;
-    width: 50vw;
+    top: 320px;
+    left: 15px;
+    width: 100%;
   }
   .sec1right h1 {
     text-align: left;
-    font-size: 4vw;
+    font-size: 20px;
   }
   .sec1right ul {
-    font-size: 2.4vw;
+    font-size: 12px;
     list-style-type: none;
     padding-left: 0;
     text-align: left;
   }
   .sec1right li{
-    margin: 1.2vh 0;
+    margin: 5px 0;
   }
   .sec1content {
     font-family: "Nico Moji";
     width: 100vw;
     height: 100vh;
     position: absolute;
-    top: 6vh;
+    top: 50px;
     left: 0;
     z-index: 2;
     text-align: center;
@@ -103,7 +102,7 @@
   }
   .sec1content h3{
     text-shadow: none;
-    font-size: 3vw;
+    font-size: 18px;
     margin-top: 0;
     padding: 0;
   }
@@ -112,12 +111,12 @@
     color: rgb(76, 63, 236);
   }
   .sec1content h1 {
-    font-size: 8vw;
-    margin-bottom: 1vh;
-    margin-top: 1vh;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .sec1content p {
-    font-size: 5vw;
+    font-size: 20px;
   }
 
 
@@ -137,6 +136,7 @@
     z-index: 0;
   }
   .sec2content {
+    height: 100vh;
     z-index: 2;
     position: absolute;
     top: 15vh;
@@ -200,6 +200,7 @@
     top: 5vh;
     left: 0vw;
     font-family: "Sawarabi Gothic";
+    height: 100vh;
 
   }
   .sec3content h1 {
@@ -280,5 +281,5 @@
 
 
 
-  }
+
 }
