@@ -52,18 +52,19 @@
     /* margin-left: 12.5vw; */
     z-index: 3;
     position: absolute;
-    top: 60vh;
-    left: 25vw;
+    top: 38vh;
+    left: 15vw;
     width: 50vw;
   }
   .sec1left h1 {
-    text-align: center;
+    text-align: left;
     font-size: 4vw;
   }
   .sec1left ul {
     font-size: 2.4vw;
     list-style-type: none;
     padding-left: 0;
+    text-align: left;
   }
   .sec1left li{
     padding-left: 5vw;
@@ -73,18 +74,18 @@
     /* margin-left: 12.5vw; */
     position: absolute;
     top: 38vh;
-    right: 25vw;
+    right: -5vw;
     width: 50vw;
   }
   .sec1right h1 {
-    text-align: center;
+    text-align: left;
     font-size: 4vw;
   }
   .sec1right ul {
     font-size: 2.4vw;
     list-style-type: none;
     padding-left: 0;
-    text-align: center;
+    text-align: left;
   }
   .sec1right li{
     margin: 1.2vh 0;
