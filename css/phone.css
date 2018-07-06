@@ -52,16 +52,16 @@
     /* margin-left: 12.5vw; */
     z-index: 3;
     position: absolute;
-    top: 68vh;
+    top: 60vh;
     left: 25vw;
     width: 50vw;
   }
   .sec1left h1 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .sec1left ul {
-    font-size: 3.2vw;
+    font-size: 2.4vw;
     list-style-type: none;
     padding-left: 0;
   }
@@ -72,30 +72,29 @@
   .sec1right {
     /* margin-left: 12.5vw; */
     position: absolute;
-    top: 41vh;
+    top: 38vh;
     right: 25vw;
     width: 50vw;
   }
   .sec1right h1 {
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   .sec1right ul {
-    font-size: 1.7vw;
+    font-size: 2.4vw;
     list-style-type: none;
     padding-left: 0;
     text-align: center;
   }
   .sec1right li{
     margin: 1.2vh 0;
-    font-size: 3.2vw;
   }
   .sec1content {
     font-family: "Nico Moji";
     width: 100vw;
     height: 100vh;
     position: absolute;
-    top: 7vh;
+    top: 6vh;
     left: 0;
     z-index: 2;
     text-align: center;
