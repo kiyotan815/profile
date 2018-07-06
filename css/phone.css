@@ -140,9 +140,9 @@
     z-index: 2;
     position: absolute;
     top: 15vh;
-    left: -35vw;
+    left: -50vw;
     color: rgb(255, 255, 255);
-    width: 75vw;
+    width: 100vw;
     text-align: center;
     font-family: "Sawarabi Gothic";
     text-shadow: 7px 7px 1.5px rgb(33, 33, 33);
