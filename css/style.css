@@ -95,7 +95,7 @@
   height: auto;
   width: 100%;
   background: rgba(171, 171, 171, 0.68);
-  border-bottom: 10px ridge  rgb(92, 92, 92);
+
 }
 .detailcontent {
   color: white;
@@ -120,4 +120,16 @@
 }
 .docker {
   color: rgb(103, 173, 189);
+}
+.realgori {
+}
+.detailfooter{
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+.dtfcontent{
+  width: calc(50%);
+  font-family: "Nico Moji";
+  text-align: center;
 }
