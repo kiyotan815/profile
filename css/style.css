@@ -28,10 +28,13 @@ a {
 
 .main{
   text-align: center;
-  height: 50vh;
+  height: auto;
   width: 100vw;
   font-family: "Sawarabi Gothic";
   background: linear-gradient(rgb(0, 255, 94), rgb(8, 134, 81));
+}
+.maincontent{
+  padding-bottom: 30px;
 }
 .maincontent h1{
   margin-top: 0;
@@ -41,31 +44,45 @@ a {
   font-size: 80px;
 }
 .maincontent p{
-  font-size: 50px;
+  font-size: 30px;
 }
 #logo {
+  margin: 0;
   width: 40%;
 }
 .sub{
+  position: relative;
+  height: auto;
+  width: 100%;
+  background-image: url(../img/goripic.jpg);
+  background-repeat: no-repeat;
+}
+.subcover {
+  border-top: 10px ridge rgb(92, 92, 92);
+  border-bottom: 10px ridge  rgb(92, 92, 92);
+  width: 100%;
+  height: auto;
+  background: rgba(255,255,255,0.8);
   display: flex;
   flex-wrap: wrap;
 }
 .subcontent {
-  width: calc(40% - 10px);
+  width: calc(50% - 10px);
   margin: 5px;
-  font-family: "Sawarabi Gothic";
+  font-family: "Nico Moji";
   text-align: center;
-  margin: 0 5%;
+  padding-bottom: 30px;
 }
 .subcontent h1{
-  font-size: 40px;
+  font-size: 45px;
 }
 .subcontent ul{
   list-style-type: none;
 }
 .subcontent li {
-  margin-left: 10%;
+  color: rgb(62, 62, 62);
+  padding-left: 100px;
   margin-bottom: 3%;
   text-align: left;
-  font-size: 20px;
+  font-size: 30px;
 }
