@@ -100,7 +100,7 @@
   padding: 0 20px;
   text-align: center;
   padding-bottom: 30px;
-  text-shadow: 3px 3px 3px rgb(71, 71, 71);
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 .detailcontent h1{
   margin-top:0;
@@ -108,10 +108,10 @@
   font-size: 4vmin;
 }
 .detailcontent h2{
-  font-size: 5vmin;
+  font-size: 6vmin;
 }
 .detailcontent p{
-  font-size: 3.2vmin;
+  font-size: 3.5vmin;
 }
 .rails {
   color: rgb(195, 0, 0);
@@ -128,11 +128,12 @@
   padding-bottom: 20px;
 }
 .dtfcontent{
-  width: calc(50%);
   font-family: "Nico Moji";
   text-align: right;
 }
 .dtfcontent img{
+  padding-left: 20px;
+  width: 30vw;
   opacity: 0.8;
   border-radius: 36%;
 }
@@ -142,7 +143,7 @@
   padding-left: 5vw;
   padding-top: 20px;
   text-align: left;
-  font-size: 3vmin;
+  font-size: 3.4vmin;
   padding-bottom: 10px;
 }
 
