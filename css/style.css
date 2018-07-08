@@ -100,7 +100,7 @@
   padding: 0 20px;
   text-align: center;
   padding-bottom: 30px;
-  text-shadow: 4px 4px 1.5px rgb(33, 33, 33);
+  text-shadow: 3px 3px 3px rgb(71, 71, 71);
 }
 .detailcontent h1{
   margin-top:0;
@@ -111,7 +111,7 @@
   font-size: 5vmin;
 }
 .detailcontent p{
-  font-size: 3vmin;
+  font-size: 3.2vmin;
 }
 .rails {
   color: rgb(195, 0, 0);
@@ -142,7 +142,7 @@
   padding-left: 5vw;
   padding-top: 20px;
   text-align: left;
-  font-size: 2.3vw;
+  font-size: 3vmin;
   padding-bottom: 10px;
 }
 
