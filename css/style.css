@@ -148,7 +148,7 @@
 
 
 .footer{
-  height: auto;
+  height: 100%;;
   width: 100%;
   padding-bottom: 50px;
 }
@@ -159,7 +159,7 @@
   position: relative;
 }
 .atogaki {
-  padding-top: 10vh;
+  padding-top: 5vh;
 }
 .atogaki h1{
   font-size: 50px;
@@ -198,4 +198,5 @@
 }
 .profile_link a {
   text-decoration: none;
+  font-size: 4vmin;
 }
